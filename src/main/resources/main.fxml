@@ -1,0 +1,19 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<BorderPane>
+    <center>
+        <SplitPane orientation="VERTICAL">
+            <VBox >
+                <Label text="文本内容"/>
+                <TextArea VBox.vgrow="ALWAYS"/>
+            </VBox>
+            <VBox >
+                <Label text="文本内容"/>
+                <TextArea VBox.vgrow="ALWAYS"/>
+            </VBox>
+        </SplitPane>
+    </center>
+</BorderPane>
