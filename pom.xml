@@ -29,6 +29,14 @@
             <artifactId>easyexcel</artifactId>
             <version>3.0.5</version>
         </dependency>
+
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.16</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
