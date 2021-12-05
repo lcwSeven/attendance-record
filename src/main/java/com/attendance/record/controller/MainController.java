@@ -179,7 +179,7 @@ public class MainController {
                  EasyExcel.write(new File(fileName),TheLastData.class)
                          .sheet("考勤数据").doWrite(lastDataList);
             }finally {
-                printLog("考勤文件已生成完毕。。");
+                printLog("考勤文件已生成完毕...fileName="+fileName);
             }
 
 
